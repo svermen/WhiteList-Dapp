@@ -204,16 +204,27 @@ export default function Home() {
           </div>
           <div className={styles.description}>
             {numberOfWhitelisted} have already joined the Whitelist
-          </div>
+          </div>          
           {renderButton()}
+          <p></p>
+          <div>
+            <a href="https://nft-collection-78mtpxxbq-svermen.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <button className={styles.button}>
+                Go NFT collection
+            </button>
+            </a>
+          </div>
+          
         </div>
+     
         <div>
           <img className={styles.image} src="./crypto-devs.svg" />
         </div>
       </div>
-
+      
+    
       <footer className={styles.footer}>
-        Made with &#10084; by Santiago Vermeulen
+        Made by Santiago Vermeulen
       </footer>
     </div>
   );
