@@ -208,7 +208,7 @@ export default function Home() {
           {renderButton()}
           <p></p>
           <div>
-            <a href="https://nft-collection-78mtpxxbq-svermen.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <a href="https://nft-collection-r1pjoaswm-svermen.vercel.app/" target="_blank" rel="noopener noreferrer">
             <button className={styles.button}>
                 Go NFT collection
             </button>
